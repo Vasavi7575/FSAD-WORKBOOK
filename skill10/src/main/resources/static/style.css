@@ -1,0 +1,66 @@
+.student-manager{
+max-width:900px;
+margin:40px auto;
+padding:25px;
+font-family:Arial, Helvetica, sans-serif;
+background:#fafafa;
+}
+
+h2,h3{
+text-align:center;
+color:#2c3e50;
+margin-bottom:20px;
+}
+
+.add-student-form{
+background:#ffffff;
+padding:20px;
+border-radius:10px;
+margin-bottom:30px;
+display:flex;
+gap:15px;
+flex-wrap:wrap;
+box-shadow:0 3px 8px rgba(0,0,0,0.1);
+}
+
+.add-student-form input{
+padding:10px;
+border:1px solid #ccc;
+border-radius:5px;
+flex:1;
+min-width:150px;
+}
+
+.add-student-form button{
+background:#28a745;
+color:#fff;
+border:none;
+padding:10px 18px;
+border-radius:5px;
+cursor:pointer;
+}
+
+.students-table{
+width:100%;
+border-collapse:collapse;
+background:#ffffff;
+}
+
+.students-table th,
+.students-table td{
+padding:12px;
+}
+
+.students-table th{
+background:#007bff;
+color:#ffffff;
+}
+
+.delete-btn{
+background:#e74c3c;
+color:#fff;
+border:none;
+padding:6px 12px;
+border-radius:5px;
+cursor:pointer;
+}
